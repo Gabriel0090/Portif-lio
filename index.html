@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Gabriel Molinari da Rocha</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (para ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Canvas para a Animação -->
+    <canvas id="particle-canvas"></canvas>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Gabriel<span>.</span>Molinari</a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Olá, eu sou <span>Gabriel Molinari</span></h1>
+                <p class="subtitle">Desenvolvedor de Software</p>
+                <div class="social-links">
+                    <a href="https://github.com/Gabriel0090" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gabriel-molinari-da-rocha-" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/gabriel.molinari007" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="about" class="container">
+            <div class="about-content fade-in">
+                <h2 class="section-title">Sobre <span>Mim</span></h2>
+                <p>
+                    Sou um desenvolvedor apaixonado por tecnologia e em constante aprendizado. Busco continuamente aprimorar minhas habilidades e aplicá-las em projetos desafiadores. Tenho focado meus estudos no desenvolvimento de aplicações web, explorando tecnologias tanto no front-end quanto no back-end. Sou proativo, gosto de solucionar problemas e estou sempre aberto a novas oportunidades de aprendizado e colaboração.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção Habilidades -->
+
+        <section id="skills" class="container">
+            <h2 class="section-title fade-in">Minhas <span>Habilidades</span></h2>
+            <div class="skills-grid">
+                <div class="skill-item fade-in"><i class="fab fa-html5"></i><p>HTML5</p></div>
+                <div class="skill-item fade-in"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+                <div class="skill-item fade-in"><i class="fab fa-js-square"></i><p>JavaScript</p></div>
+                <div class="skill-item fade-in"><i class="fab fa-git-alt"></i><p>Git</p></div>
+                <div class="skill-item fade-in"><i class="fab fa-github"></i><p>GitHub</p></div>
+                <div class="skill-item fade-in"><i class="fab fa-bootstrap"></i><p>Bootstrap</p></div>
+            </div>
+        </section>
+
+        <!-- Seção Projetos -->
+
+        <section id="projects" class="container">
+            <h2 class="section-title fade-in">Meus <span>Projetos</span></h2>
+            <div class="projects-grid">
+                <article class="project-card fade-in">
+                    <div class="project-content"><h3 class="project-title">The Meal - Cardápio Digital</h3><p class="project-description">Cardápio digital que consome a API "TheMealDB" para exibir pratos. Permite navegar por categorias, pesquisar receitas e ver detalhes.</p><div class="project-tech"><span>API</span> <span>JavaScript</span> <span>HTML</span> <span>CSS</span></div><div class="project-links"><a href="https://github.com/fabzera2007/themeal.git" target="_blank"><i class="fab fa-github"></i> Ver Código</a></div></div>
+                </article>
+                <article class="project-card fade-in">
+                    <div class="project-content"><h3 class="project-title">Nikel - App de Finanças</h3><p class="project-description">Aplicação para controle de finanças pessoais com login, cadastro de transações e visualização de saldo, utilizando o Local Storage.</p><div class="project-tech"><span>JavaScript</span> <span>HTML</span> <span>CSS</span> <span>Bootstrap</span></div><div class="project-links"><a href="https://github.com/Gabriel0090/Nikel.git" target="_blank"><i class="fab fa-github"></i> Ver Código</a></div></div>
+                </article>
+                <article class="project-card fade-in">
+                    <div class="project-content"><h3 class="project-title">Projetos Imersão Dev Alura</h3><p class="project-description">Conjunto de projetos (Conversor de Moedas, Jogo Mentalista, AluraFlix) para praticar conceitos fundamentais de desenvolvimento web.</p><div class="project-tech"><span>JavaScript</span> <span>HTML</span> <span>CSS</span></div><div class="project-links"><a href="https://github.com/Gabriel0090/project-alura-imersaoDev.git" target="_blank"><i class="fab fa-github"></i> Ver Código</a></div></div>
+                </article>
+                <article class="project-card fade-in">
+                    <div class="project-content"><h3 class="project-title">Calculadora Simples</h3><p class="project-description">Calculadora funcional com as 4 operações básicas, desenvolvida para praticar a lógica de programação e a manipulação do DOM.</p><div class="project-tech"><span>JavaScript</span> <span>HTML</span> <span>CSS</span></div><div class="project-links"><a href="https://github.com/Gabriel0090/Calculadora-Simples.git" target="_blank"><i class="fab fa-github"></i> Ver Código</a></div></div>
+                </article>
+            </div>
+        </section>
+        
+        <!-- Seção Contato -->
+         
+        <section id="contact" class="container">
+            <h2 class="section-title fade-in">Vamos <span>Conversar?</span></h2>
+            <p class="fade-in">Estou sempre aberto a novas oportunidades, colaborações e desafios. Se você gostou do meu trabalho ou tem alguma pergunta, não hesite em entrar em contato!</p>
+            <a href="mailto:seu-email-aqui@example.com" class="contact-button fade-in">Enviar um E-mail</a>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Gabriel Molinari da Rocha. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
